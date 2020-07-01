@@ -1,0 +1,224 @@
+<<<<<<< HEAD
+.userProfile {
+  margin: 50px 0 20px 0;
+}
+
+.quote {
+  background: #f3f2f2;
+  border-left: 10px solid #ccc;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.icon_teacher {
+  width: 15px;
+}
+
+.icon_location {
+  width: 15px;
+}
+
+.profilePicture img {
+  border: 6px solid #ccc;
+  border-radius: 50%;
+}
+
+.userInfo {
+  margin-top: 30px;
+}
+
+.userInfo h1 {
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+.projectPanel {
+  background: rgb(248, 200, 97);
+  border: 2px solid rgb(103, 22, 22);
+  margin: 50px 30px 20px 30px;
+  padding: 10px;
+}
+
+.UserProject1,
+.UserProject2,
+.UserProject3 {
+  border-radius: 25px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+  padding: 70px;
+  margin: 20px 20px;
+  font-size: 25px;
+}
+
+.UserProject1 {
+  background: rgb(211, 214, 238);
+  border: 1px solid rgb(57, 61, 91);
+}
+
+.UserProject2 {
+  background: rgb(197, 236, 205);
+  border: 1px solid rgb(59, 98, 67);
+}
+
+.UserProject3 {
+  background: rgb(243, 193, 193);
+  border: 1px solid rgb(137, 55, 55);
+}
+
+.UserProject1:hover {
+  background: rgb(120, 134, 240);
+  border: 1px solid rgb(57, 61, 91);
+}
+
+.UserProject2:hover {
+  background: rgb(115, 235, 139);
+  border: 1px solid rgb(59, 98, 67);
+}
+
+.UserProject3:hover {
+  background: rgb(241, 118, 118);
+  border: 1px solid rgb(137, 55, 55);
+}
+
+.createProject {
+  background: rgb(115, 235, 139);
+  border: 1px solid rgb(59, 98, 67);
+  border-radius: 8px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 15px;
+}
+
+.createProject:hover {
+  background: rgb(106, 216, 128);
+  border: 1px solid rgb(59, 98, 67);
+}
+=======
+/* Index */
+.title h1 {
+  font-size: 70px;
+  padding: 10px;
+}
+
+.navBar {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.navBar h1 {
+  font-size: 70px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  display: inline;
+}
+
+.subjectWrap {
+  background: rgb(248, 200, 97);
+  border: 2px solid rgb(189, 149, 75);
+  margin: 15px 0px;
+}
+
+.subjectPanel {
+  margin: 20px 30px 20px 30px;
+  padding: 0px;
+  font-weight: 600;
+}
+
+.mainPanel {
+  background: rgb(248, 200, 97);
+  border: 2px solid rgb(103, 22, 22);
+  margin: 50px 0px 20px 0px;
+  padding: 450px 0;
+}
+
+.subject1,
+.subject2,
+.subject3,
+.subject4,
+.subject5 {
+  color: black;
+
+  font-size: 25px;
+  border-radius: 25px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 20px;
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+.subject1 {
+  background: rgb(243, 193, 193);
+  border: 1px solid rgb(148, 81, 81);
+  color: black;
+}
+
+.subject2 {
+  background: rgb(220, 197, 236);
+  border: 1px solid rgb(173, 104, 221);
+}
+
+.subject3 {
+  background: rgb(211, 214, 238);
+  border: 1px solid rgb(121, 126, 165);
+}
+
+.subject4 {
+  background: rgb(119, 181, 156);
+  border: 1px solid rgb(28, 86, 63);
+}
+
+.subject5 {
+  background: rgb(236, 121, 121);
+  border: 1px solid rgb(137, 55, 55);
+}
+
+.subject1:hover {
+  background: rgb(241, 112, 112);
+  border: 1px solid rgb(148, 81, 81);
+}
+
+.subject2:hover {
+  background: rgb(190, 119, 241);
+  border: 1px solid rgb(173, 104, 221);
+}
+
+.subject3:hover {
+  background: rgb(118, 132, 236);
+  border: 1px solid rgb(121, 126, 165);
+}
+
+.subject4:hover {
+  background: rgb(25, 155, 103);
+  border: 1px solid rgb(28, 86, 63);
+}
+
+.subject5:hover {
+  background: rgb(204, 65, 65);
+  border: 1px solid rgb(137, 55, 55);
+}
+
+.projectPanel {
+  background: rgb(248, 200, 97);
+  border: 2px solid rgb(103, 22, 22);
+  margin: 50px 30px 20px 30px;
+  padding: 10px;
+}
